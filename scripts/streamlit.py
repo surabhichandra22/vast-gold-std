@@ -111,9 +111,9 @@ edited_df = st.data_editor(
     key="editable_table"
 )
 
-# ------------------ Save button ------------------
+# # ------------------ Save button ------------------
 
-if st.button("Save Changes"):
-    edited_df.to_csv("/suphys/sura0296/scripts/gold_std_data_edited.txt", sep='\t', index=False)
-    st.success("Changes saved!")
+# if st.button("Save Changes"):
+#     edited_df.to_csv("/suphys/sura0296/scripts/gold_std_data_edited.txt", sep='\t', index=False)
+#     st.success("Changes saved!")
 
