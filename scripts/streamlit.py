@@ -10,7 +10,7 @@ st.title("VAST Gold Standard Database")
 # -------------------- Load your data --------------------
 def load_data():
     # df = pd.read_csv('/suphys/sura0296/scripts/gold_std_data.txt', sep='\t')
-    df = pd.read_csv('https://raw.githubusercontent.com/surabhichandra22/vast-gold-std/main/data_files/gold-std-data.txt', sep='\t')
+    df = pd.read_csv('https://github.com/surabhichandra22/vast-gold-std/blob/main/data_files/gold_std_data.txt', sep='\t')
     return df
 
 df = load_data()
